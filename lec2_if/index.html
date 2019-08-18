@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript Intro
+        </title>
+    </head>
+    <body>
+        <script>
+
+            var inputNumber = window.prompt("한 자리 숫자를 적어주세요.");  //web에서 숫자를 입력 받음, prompt
+
+            console.log(inputNumber);
+
+
+            if(inputNumber == '7'){   //==는 형변환을 해서 값을 비교, ===는 같은 자료형의 값만 비교 가능
+                alert('Lucky!');
+            }
+
+            else if(inputNumber == '0'){
+                alert('Zero');
+            }
+            else if(inputNumber == '1'){
+                alert('One');
+            }
+            else{
+                alert('Unlucky');
+            }
+
+
+            var num = 7;
+            if(num % 2 === 0 && num % 3 === 0){
+                console.log(num + '는 6의 배수 입니다.');
+            }
+            else{
+                console.log(num + '는 6의 배수가 아닙니다.');
+            }
+
+
+        
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript Intro
+        </title>
+    </head>
+    <body>
+        <script>
+            function InchToCentimeter(inch){
+                var centimeter = inch * 2.54;     // 1 inch = 2.54cm
+                return centimeter;                // cm로 계산한 결과값 돌려주기
+            }
+
+            var result1 = InchToCentimeter(2);    // 2 inch를 cm으로 바꾼 값
+            var result2 = InchToCentimeter(3);    // 3 inch를 cm으로 바꾼 값
+
+            console.log(result1);
+            console.log(result2);
+            console.log(InchToCentimeter(1) + InchToCentimeter(5));
+            
+            parseInt('100세')
+            console.log(parseInt('100세')); //parseInt 는 String 파라미터 값 중 int값만 추출해주는 함수
+
+        </script>
+    </body>
+</html>

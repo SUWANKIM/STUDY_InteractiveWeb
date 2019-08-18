@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript Intro
+        </title>
+    </head>
+    <body>
+        <script>
+            var brands = ['Apple', 'Starbucks', 'Coca-Cola']; //brands라는 String 배열
+            var iPad = [800, 'Black', true];  //한 배열에 다양한 타입의 항목을 담을 수 있음, 정수+문자+불린
+
+            var products = [['iphone', 'iMac', 'Macbook'], 
+            ['Latte', 'Tea', 'Americano'],
+            ['Coke', 'Diet Coke']];
+
+            console.log(products);
+
+            var appleProducts = products[0]; //2차 배열중 1차배열 값 저장
+            console.log(appleProducts[1]);  //저장한 1차 배열의 2차 배열값 콘솔에 출력
+
+
+            var person = ['Dongwook', 30, 'Korea'];
+            console.log(person[2]);
+
+
+            //베열의 요소가 많아져서 접근이 헷갈리는 것을 해결하기 위해 객체(Object) 사용
+            var person = {
+                name : "Suwan",  //각 요소를 property라고 함
+                age : 30, 
+                nationality : "Korea"
+            };
+
+            console.log(person["name"]);
+            console.log(person["age"]);
+            console.log(person.name);
+
+        </script>
+    </body>
+</html>
